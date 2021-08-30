@@ -1,7 +1,7 @@
 version: "2"
 services:
   wiremock:
-    image: rbillon59/wiremock-loadtest:latest
+    image: jibijose/wiremock-loadtest:latest
     volumes:
       - ./samples/stubs:/home/wiremock
     ports: 
